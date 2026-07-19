@@ -1,7 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const button = document.querySelector("button");
+// Lumora Website JavaScript
 
-  button.addEventListener("click", function () {
-    alert("✨ Welcome to Lumora! Thank you for visiting our Lip Gloss website.");
-  });
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.querySelector(".btn");
+
+    if (button) {
+        button.addEventListener("click", () => {
+            alert("✨ Welcome to Lumora! Discover our luxury lip gloss collection.");
+        });
+    }
 });
